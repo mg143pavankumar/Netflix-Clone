@@ -15,6 +15,7 @@ export default function Nav() {
   useEffect(() => {
     window.addEventListener("scroll", transitionHandler);
     return () => {
+      //clear
       window.removeEventListener("scroll", transitionHandler);
     };
   }, []);
