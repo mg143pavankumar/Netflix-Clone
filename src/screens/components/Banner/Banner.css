@@ -1,18 +1,18 @@
 .banner{
     position: relative;
-    height: 45rem;
+    height: 100vh;
     color: #fff;
     object-fit: contain;
 }
 
 .banner__contents{
-    margin-left: 3rem;
+    margin-left: 5rem;
     padding-top: 14rem;
-    height: 37.6rem;
+    height: 90vh;
 }
 
 .banner__title{
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: 700;
     padding-bottom: 2rem;
 }
@@ -22,15 +22,21 @@
     color: #fff;
     outline: none;
     border: none;
+    font-size: 1.5rem;
     font-weight: 700;
     border-radius: 0.3vw;
-    padding-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1.5rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     background-color: rgba(51,51,51,0.5);
+}
+
+.banner__button:first-child{
+    background-color: #fff;
+    color: #000;
 }
 
 .banner__button:hover{
@@ -43,8 +49,8 @@
     width: 45rem;
     line-height: 1.1;
     padding-top: 1rem;
-    font-size: 1.5rem;
-    max-width: 36rem;
+    font-size: 2rem;
+    max-width: 45rem;
     height: 8rem;
 }
 
@@ -52,7 +58,9 @@
     height: 7.4rem;
     background-image: linear-gradient(
         180deg, transparent, 
-        rgba(37,37,37,0.61),
-        #111
+       rgba(29, 26, 26, 0.925)
     );
 }
+
+/* rgba(29, 26, 26, 0.747),
+rgb(29,26,26) */
